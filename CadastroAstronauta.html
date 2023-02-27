@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro Astronautas</title>
+</head>
+<body>
+    <h3>Cadastro da liga dos astronautas</h3>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" placeholder="Lucas André..."> <br><br>
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" placeholder="email@internet.com...">
+    <label for="psw"> - Password</label>
+    <input type="password" id="psw"> <br><br>
+
+    <label for="nasc">Data de nascimento: </label>
+    <input type="date" id="nasc">
+    <label for="foto"> - Foto: </label>
+    <input type="file" id="foto"> <br><br>
+
+    <label for="pais">Nacionalidade: </label>
+    <input list="pais" name="nacionalidade">
+    <datalist id="pais">
+      <option value="Americana">
+      <option value="Brasileira">
+    </datalist>
+    <p>- Gênero:</p>
+    <label for="feminino">F: </label>
+    <input type="radio" name="genero" id="feminino">
+    <label for="masculino">M: </label>
+    <input type="radio" name="genero" id="masculino">
+
+    <P>Suas principais qualidades:</P>
+    <label for="int">Inteligência</label>
+    <input type="checkbox" id="int">
+    <label for="resi">| Resiliência</label>
+    <input type="checkbox" id="resi">
+    <label for="prep">| Preparo Físico</label>
+    <input type="checkbox" id="prep">
+    <label for="edu">| Educação</label>
+    <input type="checkbox" id="edu">
+</body>
+</html>
