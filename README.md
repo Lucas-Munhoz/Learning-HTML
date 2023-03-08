@@ -1,2 +1,2 @@
 # Learning-HTML
- Just me learning HTML of OneBitCode course.
+ Just me learning HTML from OneBitCode course.
